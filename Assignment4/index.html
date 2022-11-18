@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS ASSIGNMENT 2</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <script>
+    $("document").ready(function(){
+      $("#test").click(function(){
+        $(".box1").css("background-color","blue");
+      });
+    });
+    $("document").ready(function(){
+      $("#test2").click(function(){
+        $(".box2").text("Leftbar");
+      });
+    });
+    $("document").ready(function(){
+      $(".box4").click(function(){
+        $(".box3").fadeOut();
+      });
+    });
+    </script>
+    
+</head>
+
+<body>
+  <div class="box">
+    <div class="box1">
+      <h4><p id="test">Header</p></h4>
+    </div>
+    <div class="float_box">
+      <div class="box2">
+        <h4><p id="test2">Sidebar</p></h4>
+      </div>
+      <div class="box3">
+        <h4>Main Content</h4>
+      </div>
+      <div class="box4">
+        <h4>Extra Content</h4>
+      </div>
+    </div>
+    <div class="box5">
+      <h4>Footer</h4>
+    </div>
+  </div>
+</body>
+</html>

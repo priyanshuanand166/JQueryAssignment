@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jQuery ASSIGNMENT 5</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://code.jquery.com/jquery-latest.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $(".box5").click(function(){
+                $(".pop-up").show();
+            }),
+            $(".close").click(function(){
+                $(".pop-up").hide();
+            })
+        }); 
+    </script>
+
+</head>
+
+<body>
+  <div class="box">
+    <div class="box1">
+      <h4>Header</h4>
+    </div>
+    <div class="float_box">
+      <div class="box2">
+        <h4>Sidebar</h4>
+      </div>
+      <div class="box3">
+        <h4>Main Content</h4>
+      </div>
+      <div class="box4">
+        <h4>Extra Content</h4>
+      </div>
+    </div>
+    <div class="box5">
+      <h4>Footer</h4>
+    </div>
+
+    <div class="pop-up">
+      <span class="close">&times;</span>
+      <h1>I am popup</h1>
+    </div>
+
+  </div>
+</body>
+</html>

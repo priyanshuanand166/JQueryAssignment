@@ -1,0 +1,15 @@
+.empty
+{
+    border: 1px solid red;
+}
+
+.box
+{
+    background-color: white;
+    padding: 20px;
+    width: 200px;
+    height: 120px;
+    border-style: solid;
+    border-width: 1px;
+    margin: 50px auto;
+}

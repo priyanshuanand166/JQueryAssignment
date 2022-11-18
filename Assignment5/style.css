@@ -1,0 +1,104 @@
+div
+{
+  box-sizing: border-box;
+}
+
+h4
+{
+  color: white;
+  margin: 0px;
+  vertical-align: middle;
+  line-height: normal;
+  display: inline-block;
+}
+
+.box
+{
+  background-color: white;
+  padding: 20px;
+  border-style: solid;
+  border-width: 1px;
+  width: 1040px;
+  height: 356px;
+  text-align: center;
+  margin: 50px auto;
+}
+
+.box1
+{
+  width: 1000px;
+  height: 50px;
+  background-color: rgba(78,210,234,255);
+  margin-bottom: 8px;
+  line-height: 50px;
+}
+
+.float_box
+{
+  width: 1000px;
+  height: 200px;
+}
+
+.box2
+{
+  float: left;
+  width: 245px;
+  height: 200px;
+  background-color:rgba(160,194,99,255);
+  opacity: 0.6;
+}
+
+.box3
+{
+  float: right;
+  width: 750px;
+  height: 142px;
+  background-color: rgba(245,197,49,255);
+  margin-bottom: 8px;
+}
+
+.box4
+{
+  float: right;
+  width: 750px;
+  height: 50px;
+  background-color: rgba(137,137,137,255);
+  line-height: 50px;
+}
+
+.box5
+{
+  margin-top: 8px;
+  width: 1000px;
+  height: 50px;
+  background-color: rgba(255,165,0,255);
+  line-height: 50px;
+}
+
+.pop-up{
+  display: none;
+  background-color: rgba(0, 0, 0, 0.503);
+  color: #e8eae6;
+  position: fixed;
+  z-index: 1;
+  height: 357px;
+  width: 1040px;
+  top: 50px;
+  left: 248px;
+}
+.pop-up h1{
+  /* margin-top: 25%; */
+  /* margin-left: 45%; */
+  /* text-align: center; */
+  margin: 150px auto;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+}
+.close {
+  color: rgb(255, 255, 255);
+  float: right;
+  font-size: 95px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 10px;
+}

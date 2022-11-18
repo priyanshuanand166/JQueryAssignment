@@ -1,0 +1,23 @@
+#top
+{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#middle
+{
+    margin-left: 50px;
+}
+
+#Mydiv
+{
+    background-color: white;
+    padding: 0px;
+    width: 300px;
+    border-style: solid;
+    border-width: 1px;
+    margin: 50px auto;
+}
